@@ -7,4 +7,68 @@
     android:layout_height="match_parent"
     tools:context=".classwork1.LoginActivity">
 
+    <EditText
+        android:id="@+id/LogEmail"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="ABc@gmail.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/LogPassword"
+        android:layout_width="273dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="*****"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogEmail" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLogin"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="236dp"
+        android:text="Remember Me"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogPassword" />
+
+    <Button
+        android:id="@+id/ButtonLogin"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="138dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxLogin" />
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="245dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="78dp"
+        android:text="CreateAccount SignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
